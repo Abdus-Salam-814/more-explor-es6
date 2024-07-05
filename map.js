@@ -39,5 +39,15 @@ const doubleArrowResult = arrowFunctionArray.map(num => num * 2);
 
 const selfArrowArray = [22, 33, 99, 88, 77];
 const selfArrowResultDouble = selfArrowArray.map(num => num * 2);
-console.log(selfArrowResultDouble);
+// console.log(selfArrowResultDouble);
 
+
+
+const friends = ['Tom', 'Jary', 'gopal', 'kisnochondro'];
+
+const getLength = friends.map(friend => friend.length);
+console.log(getLength);
+
+const forstLetersOfFridens = friends.map(friend => friend[0]);
+
+console.log(forstLetersOfFridens);
