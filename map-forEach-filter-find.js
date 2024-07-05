@@ -19,4 +19,4 @@ const resultFilter = numbers.filter(n => n > 30);
 
 const resultFind = numbers.find(n => n === 80);
 
-console.log(resultFind)
+console.log(resultFind);
